@@ -8,6 +8,7 @@ module.exports = {
     devServer: {
         port: 3003,
         static: path.resolve(__dirname, "dist"),
+        historyApiFallback: true,
     },
     output: {
         publicPath: "auto",
